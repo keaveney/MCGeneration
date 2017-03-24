@@ -2,7 +2,7 @@
 
 ### generic settings 
 RESUBMIT=0
-NJOBS=100        # irrelevant if input source lhe files     
+NJOBS=10        # irrelevant if input source lhe files     
 SUBNEVT=10000     
 
 GENERATOR=mg5_amcatnlo # mg5_amcatnlo or powheg
@@ -14,52 +14,22 @@ SUBGRIDPACK=NONE
 SUBSOURCE=NONE
 INPUTTAG=files
 
-### wbwb 
-#INPUTTAG=( b_bbar_4l_firsttrial_13TeV )
-#OUTPUTTAG=( wbwb_nnpdf3p0_hdamp172p5_jetveto_13TeV )
-#SUBSCRIPT=( powheg_pythia8_wbwb_jetveto )
-#FILEBASE=( WbWb_TuneCUETP8M1_13TeV_powheg_pythia8 )       
-#SUBSOURCE=LHE
-#SUBNEVT=10000     
-
-### ttbar SM/no spin correlation resp. scale up/down setup 
-#OUTPUTTAG=( ct10_hdamp172p5_SMspin_13TeV_dilepton ) 
-#  drop .py at the end for the script  
-#SUBSCRIPT=( powheg_pythia8_default ) 
-#SUBGRIDPACK=( TT_hdamp_CT10_SMspin_13TeV_dilepton_hvq ) 
-# example name: TT_TuneCUETP8M1_13TeV_powheg_pythia8__RunIISpring15DR74-Asympt50ns_MCRUN2_74_V9A-v4__AODSIM 
-#FILEBASE=( TT_TuneCUETP8M1_13TeV_powheg_pythia8_CT10only ) 
-
-# heavy higgs 
-#INPUTTAG 
-#OUTPUTTAG=( spin0_scalar_m500_tottbar_bbllnunu ) #spin0_pseudoscalar_m500_tottbar_bbllnunu )
-#SUBSCRIPT=( Hadronizer_TuneCUETP8M1_13TeV_generic_LHE_pythia8_cff ) #Hadronizer_TuneCUETP8M1_13TeV_generic_LHE_pythia8_cff ) 
-#FILEBASE=( spin0_scalar_m500_tottbar_bbllnunu ) #spin0_pseudoscalar_m500_tottbar_bbllnunu )
-#SUBSOURCE=LHE
-
 ### ttbar DM MG5_aMC@NLO setup 
 LAMBDA=1000      #     1  50    10 
 CG=2    # 10000  10   100 
-# OUTPUTTAG = ( ttbar_nnpdf3p0_4fpdfalhpas_massive_scalar_mphi_${MPHI}_mchi_${MCHI}_13TeV  ttbar_nnpdf3p0_4fpdfalhpas_massive_pseudoscalar_mphi_${MPHI}_mchi_${MCHI}_13TeV ) 
-OUTPUTTAG=( ttbar_NLO_nnpdf3p0_4fpdfalhpas_lambda_${LAMBDA}_CG_${CG}_13TeV ) 
-#OUTPUTTAG=( ttbarNLO_nnpdf3p0_4fpdfalhpas_massive_scalar_mphi_${MPHI}_mchi_${MCHI}_13TeV ttbarNLO_nnpdf3p0_4fpdfalhpas_massive_pseudoscalar_mphi_${MPHI}_mchi_${MCHI}_13TeV ) 
 
-#SUBSCRIPT=( mg5_aMCatNLO_ttbarDM mg5_aMCatNLO_ttbarDM )
-#SUBSCRIPT=( mg5_aMCatNLO_ttbar )
-#SUBSCRIPT=( mg5_aMCatNLO_ttbarNLODM mg5_aMCatNLO_ttbarNLODM )
+OUTPUTTAG=( ttbar_NLO_nnpdf3p0_4fpdfalhpas_lambda_${LAMBDA}_CG_${CG}_13TeV ) 
 
 #SUBGRIDPACK=( DMScalar_ttbar_mphi_${MPHI}_mchi_${MCHI}_gSM_1p0_gDM_1p0 DMPseudoscalar_ttbar_mphi_${MPHI}_mchi_${MCHI}_gSM_1p0_gDM_1p0 )
-SUBGRIDPACK=( EFT_ttbar_NLO_lambda_${LAMBDA}_CG_${CG}_weights )
-#SUBSCRIPT=( mg5_aMCatNLO_EFT_tt  ) #Hadronizer_TuneCUETP8M1_13TeV_generic_LHE_pythia8_cff )                                                        
-SUBSCRIPT=( mg5_aMCatNLO_EFT_tt_noMerging )
+SUBGRIDPACK=( EFT_ttbar_NLO_lambda_${LAMBDA}_CG_${CG} )
 
-#SUBGRIDPACK=( DMScalar_ttbar_NLO_mphi_${MPHI}_mchi_${MCHI}_gSM_1p0_gDM_1p0 DMPseudoscalar_ttbar_NLO_mphi_${MPHI}_mchi_${MCHI}_gSM_1p0_gDM_1p0 )
+#SUBSCRIPT=( mg5_aMCatNLO_ttbar )
+#SUBSCRIPT=( mg5_aMCatNLO_EFT_tt ) #Hadronizer_TuneCUETP8M1_13TeV_generic_LHE_pythia8_cff )                                                        
+SUBSCRIPT=( mg5_aMCatNLO_EFT_tt_noMerging )
 
 FILEBASE=( EFT_TT_TuneCUETP8M1_13TeV_mg5_amcatnlo_pythia8_LHEWeights ) 
 
 echo "Starting job submission"
-echo "INPUTDIR " $SUBINPUTDIR
-
 
 ### start job submission 
 JOBID=`echo "scale=0; ${#OUTPUTTAG[@]} -1 " | bc` 
