@@ -1,0 +1,205 @@
+change rwgt_dir rwgt
+
+launch --rwgt_name=op1
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+launch --rwgt_name=op2
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0.5
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+
+launch --rwgt_name=op3
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 1.0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+
+launch --rwgt_name=op4
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 1.5
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+launch --rwgt_name=op5
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 2.0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+
+launch --rwgt_name=op6
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 2.5
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+
+
+launch --rwgt_name=op7
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0.5
+   set Dim6 7 0.5
+   set Dim6 8 0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+launch --rwgt_name=op8
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 1.0
+   set Dim6 7 1.0
+   set Dim6 8 0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+
+launch --rwgt_name=op9
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 1.5
+   set Dim6 7 1.5
+   set Dim6 8 0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+launch --rwgt_name=op10
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 2.0
+   set Dim6 7 2.0
+   set Dim6 8 0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
+
+launch --rwgt_name=op11
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 2.5
+   set Dim6 7 2.5
+   set Dim6 8 0
+   set Dim6 9 0
+   set FourFermion 1 0
+   set FourFermion 2 0
+   set FourFermion 3 0
+   set FourFermion 4 0
+   set FourFermion 5 0
+   set FourFermion 6 0
+   set FourFermion 7 0
+   set FourFermion 8 0
