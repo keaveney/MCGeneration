@@ -2,7 +2,7 @@
 
 ### generic settings 
 RESUBMIT=0
-NJOBS=10        # irrelevant if input source lhe files     
+NJOBS=200       # irrelevant if input source lhe files     
 SUBNEVT=10000     
 
 GENERATOR=mg5_amcatnlo # mg5_amcatnlo or powheg
