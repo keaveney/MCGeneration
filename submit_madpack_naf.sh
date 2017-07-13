@@ -32,7 +32,7 @@ NMASSCOMBI=`echo "scale=0; ${#SUBCG[@]} -1 " | bc`
 	sed -i -e "s|SUBCG|${SUBCG[${IMASSCOMBI}]}|g" EFT_tt/cards/${EFTSETUP}/${EFTSETUP}_*.dat 
 	
         # prepare model files 
-	# copy directories containing model templates into dedicated for this setup
+	# copy directories containing model templates into dedicated directory for this setup
         # a different model is chosen depending on the specfic choice of ttbar modelling
 	if [ ${TTBARSETUP} == "ttbar_NLO" ]; then 
 	   # cp -rp EFT_tt/models/ttbar_NLO EFT_tt/models/${EFTSETUP} 

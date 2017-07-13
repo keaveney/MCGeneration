@@ -2,7 +2,7 @@
 
 ### generic settings 
 RESUBMIT=0
-NJOBS=200       # irrelevant if input source lhe files     
+NJOBS=1000       # irrelevant if input source lhe files     
 SUBNEVT=10000     
 
 GENERATOR=mg5_amcatnlo # mg5_amcatnlo or powheg
@@ -16,7 +16,7 @@ INPUTTAG=files
 
 ### ttbar DM MG5_aMC@NLO setup 
 LAMBDA=1000      #     1  50    10 
-CG=2    # 10000  10   100 
+CG=2 # 10000  10   100 
 
 OUTPUTTAG=( ttbar_NLO_nnpdf3p0_4fpdfalhpas_lambda_${LAMBDA}_CG_${CG}_13TeV ) 
 
