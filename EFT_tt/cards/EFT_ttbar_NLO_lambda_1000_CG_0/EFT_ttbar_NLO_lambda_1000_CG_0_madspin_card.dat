@@ -21,8 +21,14 @@ set max_running_process 1
 # specify the decay for the final state particles
 define l+ = e+ mu+
 define l- = e- mu-
-define vl = ve vm vt
-define vl~ = ve~ vm~ vt~
+
+# if one wants e/mu from intermediate taus
+#define vl = ve vm vt
+#define vl~ = ve~ vm~ vt~
+
+# if one wants prompt e/mu only
+define vl = ve vm
+define vl~ = ve~ vm~
 define lept = l+ l- vl vl~
 
 decay t > w+ b, w+ > lept lept

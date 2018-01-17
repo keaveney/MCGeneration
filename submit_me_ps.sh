@@ -2,8 +2,8 @@
 
 ### generic settings 
 RESUBMIT=0
-NJOBS=1000       # irrelevant if input source lhe files     
-SUBNEVT=10000     
+NJOBS=325       # irrelevant if input source lhe files     
+SUBNEVT=20000     
 
 GENERATOR=mg5_amcatnlo # mg5_amcatnlo or powheg
 SUBLASTSTEP=GEN   # GEN or SIM
