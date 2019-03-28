@@ -1,0 +1,88 @@
+change rwgt_dir rwgt
+
+launch --rwgt_name=op1
+   set Dim6 2 0
+   set Dim6 3 -3.0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set Dim6 10 0
+   set Dim6 11 0
+
+launch --rwgt_name=op2
+   set Dim6 2 0
+   set Dim6 3 -2.0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set Dim6 10 0
+   set Dim6 11 0
+
+
+launch --rwgt_name=op3
+   set Dim6 2 0
+   set Dim6 3 -1.0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set Dim6 10 0
+   set Dim6 11 0
+
+
+launch --rwgt_name=op4
+   set Dim6 2 0
+   set Dim6 3 0
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set Dim6 10 0
+   set Dim6 11 0
+
+
+launch --rwgt_name=op5
+   set Dim6 2 0
+   set Dim6 3 1
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set Dim6 10 0
+   set Dim6 11 0
+
+launch --rwgt_name=op6
+   set Dim6 2 0
+   set Dim6 3 2
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set Dim6 10 0
+   set Dim6 11 0
+
+launch --rwgt_name=op7
+   set Dim6 2 0
+   set Dim6 3 3
+   set Dim6 4 0
+   set Dim6 5 0
+   set Dim6 6 0
+   set Dim6 7 0
+   set Dim6 8 0
+   set Dim6 9 0
+   set Dim6 10 0
+   set Dim6 11 0

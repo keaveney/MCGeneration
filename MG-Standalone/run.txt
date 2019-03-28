@@ -1,0 +1,44 @@
+import dim6top_LO_UFO
+#import SMEFTsim_A_general_alphaScheme_UFO_v2
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm
+define vl~ = ve~ vm~
+define lept = l+ l- vl vl~
+#generate p p > t t~ FCNC=0 DIM6=1, (t > w+ b DIM6=0, w+ > lept lept DIM6=0), (t~ > w- b~ DIM6=0, w- > lept lept DIM6=0)
+#generate e+ e- > Z FCNC=0 DIM6=1, (Z > lept lept)
+generate e+ e- > t t~ FCNC=0 DIM6=1, (t > w+ b DIM6=0, w+ > lept lept DIM6=0), (t~ > w- b~ DIM6=0, w- > lept lept DIM6=0)
+#output /nfs/dust/cms/user/keaveney/dEFT/7_ops_LO_dim6top_19-11-18_ZTest/
+#output /nfs/dust/cms/user/keaveney/dEFT/7_ops_LO_dim6top_19-11-18_NoWeightsTest/
+output /tmp/4_ops_LO_dim6top_19-03-19_FCCee/
+launch /tmp/4_ops_LO_dim6top_19-03-19_FCCee
+madspin=OFF
+shower=Pythia8
+reweight=OFF
+set ebeam1=172.0
+set ebeam2=172.0
+set nevents=30000
+launch
+madspin=OFF
+shower=Pythia8
+reweight=OFF
+set ebeam1=172.0
+set ebeam2=172.0
+set nevents=30000
+set DIM6 10 3.0
+#launch
+madspin=OFF
+#shower=Pythia8
+#reweight=OFF
+#set ebeam1=172.0
+#set ebeam2=172.0
+#set nevents=15000
+#set DIM6 16 2.0
+#launch
+#madspin=OFF
+#shower=Pythia8
+#reweight=OFF
+#set ebeam1=172.0
+#set ebeam2=172.0
+#set nevents=15000
+#set DIM6 2 2.0

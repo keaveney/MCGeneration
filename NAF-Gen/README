@@ -1,0 +1,32 @@
+#####################################
+######      MCGeneration       ######
+#####################################
+
+This package performs the essential steps of a large scale MC generation
+with the MG5_aMC@NLO generator using the CMSSW framework and environment
+and the DESY NAF batch system. 
+
+
+The steps are:
+
+1. Creation of 'gripack' tarball for a given process and modelling
+containing the essential code for the genertaion of an aribtrary number
+of parton-level events.
+   -> performed with 'gridpack_generation.sh'
+
+
+
+2. Generation of parton-level events with the gridpack as input, subsequent
+parton-shower and hadronisation (currently only set up for PYTHIA8) and
+writing of 'GENSIM' files (CMSSW format).
+
+   -> performed with 'base_me_ps.sh'
+
+
+As one is typically interested in many theoretical scenarios, wrapper
+scripts are used to perform multiple gridpack creations and parton-shower
++ hadronisation jobs for a pre-defined range of different model parameters. 
+
+They are:
+     ->submit_madpack_naf.sh
+     ->submit_me_ps.sh
