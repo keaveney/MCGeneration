@@ -1,0 +1,235 @@
+import dim6top_LO_UFO
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm
+define vl~ = ve~ vm~
+define lept = l+ l- vl vl~
+#generate p p > t t~ FCNC=0 DIM6=1, (t > w+ b DIM6=0, w+ > lept lept DIM6=0),(t~ > w- b~ DIM6=0, w- > lept lept DIM6=0)
+#output /tmp/tt_fwd_samples/
+launch /tmp/tt_fwd_samples/
+madspin=OFF
+shower=OFF
+reweight=OFF
+set nevents=1000
+set DIM6 51 -4.0
+set DIM6 52 2.0
+set DIM6 53 5.0
+set DIM6 54 -10.0
+set DIM6 55 -2.0
+set DIM6 56 -6.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 0.0
+set DIM6 52 -5.0
+set DIM6 53 1.0
+set DIM6 54 8.0
+set DIM6 55 7.0
+set DIM6 56 -6.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -9.0
+set DIM6 52 -7.0
+set DIM6 53 -3.0
+set DIM6 54 6.0
+set DIM6 55 -7.0
+set DIM6 56 10.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 10.0
+set DIM6 52 6.0
+set DIM6 53 -4.0
+set DIM6 54 4.0
+set DIM6 55 -8.0
+set DIM6 56 8.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -1.0
+set DIM6 52 7.0
+set DIM6 53 9.0
+set DIM6 54 -2.0
+set DIM6 55 7.0
+set DIM6 56 -9.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 0.0
+set DIM6 52 -2.0
+set DIM6 53 -2.0
+set DIM6 54 -7.0
+set DIM6 55 -10.0
+set DIM6 56 -3.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -6.0
+set DIM6 52 5.0
+set DIM6 53 -9.0
+set DIM6 54 -8.0
+set DIM6 55 4.0
+set DIM6 56 -2.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 1.0
+set DIM6 52 4.0
+set DIM6 53 -4.0
+set DIM6 54 -10.0
+set DIM6 55 -7.0
+set DIM6 56 0.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 4.0
+set DIM6 52 0.0
+set DIM6 53 -1.0
+set DIM6 54 10.0
+set DIM6 55 -9.0
+set DIM6 56 -1.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -8.0
+set DIM6 52 -9.0
+set DIM6 53 3.0
+set DIM6 54 3.0
+set DIM6 55 -7.0
+set DIM6 56 -9.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -1.0
+set DIM6 52 0.0
+set DIM6 53 -6.0
+set DIM6 54 0.0
+set DIM6 55 -6.0
+set DIM6 56 8.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -5.0
+set DIM6 52 -5.0
+set DIM6 53 3.0
+set DIM6 54 -1.0
+set DIM6 55 3.0
+set DIM6 56 10.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -5.0
+set DIM6 52 -3.0
+set DIM6 53 5.0
+set DIM6 54 3.0
+set DIM6 55 0.0
+set DIM6 56 5.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -3.0
+set DIM6 52 -4.0
+set DIM6 53 2.0
+set DIM6 54 -9.0
+set DIM6 55 -9.0
+set DIM6 56 6.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 7.0
+set DIM6 52 9.0
+set DIM6 53 -3.0
+set DIM6 54 2.0
+set DIM6 55 -4.0
+set DIM6 56 -8.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 8.0
+set DIM6 52 3.0
+set DIM6 53 1.0
+set DIM6 54 1.0
+set DIM6 55 10.0
+set DIM6 56 -10.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -1.0
+set DIM6 52 -5.0
+set DIM6 53 10.0
+set DIM6 54 6.0
+set DIM6 55 -10.0
+set DIM6 56 -6.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -9.0
+set DIM6 52 -4.0
+set DIM6 53 9.0
+set DIM6 54 4.0
+set DIM6 55 6.0
+set DIM6 56 2.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 4.0
+set DIM6 52 5.0
+set DIM6 53 -2.0
+set DIM6 54 7.0
+set DIM6 55 5.0
+set DIM6 56 -4.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 -1.0
+set DIM6 52 1.0
+set DIM6 53 4.0
+set DIM6 54 2.0
+set DIM6 55 -7.0
+set DIM6 56 -8.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 3.0
+set DIM6 52 2.0
+set DIM6 53 -2.0
+set DIM6 54 8.0
+set DIM6 55 -6.0
+set DIM6 56 6.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 4.0
+set DIM6 52 0.0
+set DIM6 53 5.0
+set DIM6 54 -5.0
+set DIM6 55 8.0
+set DIM6 56 5.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 4.0
+set DIM6 52 3.0
+set DIM6 53 -4.0
+set DIM6 54 -9.0
+set DIM6 55 7.0
+set DIM6 56 4.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 5.0
+set DIM6 52 -3.0
+set DIM6 53 -5.0
+set DIM6 54 -6.0
+set DIM6 55 0.0
+set DIM6 56 -2.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 2.0
+set DIM6 52 -10.0
+set DIM6 53 8.0
+set DIM6 54 -7.0
+set DIM6 55 7.0
+set DIM6 56 3.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 0.0
+set DIM6 52 7.0
+set DIM6 53 -10.0
+set DIM6 54 5.0
+set DIM6 55 5.0
+set DIM6 56 4.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 0.0
+set DIM6 52 4.0
+set DIM6 53 -6.0
+set DIM6 54 1.0
+set DIM6 55 6.0
+set DIM6 56 9.0
+launch /tmp/tt_fwd_samples/
+set nevents=1000
+set DIM6 51 10.0
+set DIM6 52 6.0
+set DIM6 53 -7.0
+set DIM6 54 8.0
+set DIM6 55 10.0
+set DIM6 56 4.0
